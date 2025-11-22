@@ -33,5 +33,8 @@
     <ClCompile Include="merge.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="DS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
