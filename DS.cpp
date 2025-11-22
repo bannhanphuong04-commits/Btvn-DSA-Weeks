@@ -74,6 +74,6 @@ void SortByGPA(DSSV* DS) {
 		}
 		newSV->next = cur->next;
 		cur->next = newSV;
-	}
+	} 
 
 int main(){}
