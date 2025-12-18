@@ -130,6 +130,7 @@
   <ItemGroup>
     <ClCompile Include="CTDLGT.cpp" />
     <ClCompile Include="DS.cpp" />
+    <ClCompile Include="FileName.cpp" />
     <ClCompile Include="merge.cpp" />
     <ClCompile Include="quicksort.cpp" />
     <ClCompile Include="selectsort.cpp" />

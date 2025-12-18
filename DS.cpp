@@ -1,9 +1,11 @@
 #include <iostream>
+#include <algorithm>
+#include <string>
 using namespace std;
 
 struct SV {
 	string Ten;
-	char MSSV;
+	string MSSV;
 	int NamSinh;
 	double GPA;
 	SV* next;
@@ -61,7 +63,9 @@ void SortByGPA(DSSV* DS) {
 			}
 		}
 	}
+}
 	void InsertSorted(DSSV * DS, SV * newSV) {
+		if (!newSV) return;
 		SV*& head = DS->firstSV;
 		if (!head || newSV->GPA < head->GPA) {
 			newSV->next = head;
@@ -74,6 +78,6 @@ void SortByGPA(DSSV* DS) {
 		}
 		newSV->next = cur->next;
 		cur->next = newSV;
-	} 
+	}
 
 int main(){}
