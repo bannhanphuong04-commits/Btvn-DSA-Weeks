@@ -137,6 +137,7 @@
     <ClCompile Include="bubblesort.cpp" />
     <ClCompile Include="insertsort.cpp" />
     <ClCompile Include="Tree.cpp" />
+    <ClCompile Include="VeTree.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

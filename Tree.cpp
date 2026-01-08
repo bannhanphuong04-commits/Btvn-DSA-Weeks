@@ -108,7 +108,7 @@ bool kiemTraCopy(NutSach* sach1, NutSach* sach2) {
 int main() {
     
     MucLuc* sach = new MucLuc("Giao trinh C++", 0);
-
+    
     MucLuc* c1 = new MucLuc("Chuong 1: Co ban", 2);
     c1->dsCon.push_back(new MucLuc("Muc 1.1: Nhap xuat", 3));
     c1->dsCon.push_back(new MucLuc("Muc 1.2: Bien", 4));
