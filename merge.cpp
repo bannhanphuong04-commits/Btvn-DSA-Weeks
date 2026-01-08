@@ -20,4 +20,5 @@ void merge(int a[], int l, int m, int r, int n) {
         a[k++] = x[i++];
     while (j < y.size())
         a[k++] = y[j++];
-    cout << "Sau khi gop [" << l << ", " << m << "] va [" << m +]()
+    cout << "Sau khi gop [" << l << ", " << m << "] va [" << m + ]();
+}
