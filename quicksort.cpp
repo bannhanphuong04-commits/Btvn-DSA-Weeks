@@ -5,7 +5,6 @@ void printArray(int a[], int n) {
         cout << a[i] << " ";
     cout << endl;
 }
-
 int partition(int a[], int l, int r, int n) {
     int p = a[l];
     int i = l - 1, j = r + 1;
