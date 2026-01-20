@@ -13,7 +13,6 @@ void bubble_sort(int A[], int n) {
         }
     }
 }
-
 int main() {
     int A[100] = { 3,10,1,23,103,34,17,53,64,71}, n;
     cin >> n;
